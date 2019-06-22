@@ -1,8 +1,10 @@
 .box-prev-next {
   $size: 36px;
   $color: #ccc;
-  margin-top: -40px;
-  margin-bottom: 70px;
+  margin-top: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #aaa;
   a,
   .icon {
     display: inline-block;
@@ -43,5 +45,11 @@
     &:hover {
       color: darken($color, 5%);
     }
+  }
+}
+@media screen and (max-width: 767px) {
+  .box-prev-next {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }

@@ -4,3 +4,4 @@ tmp
 .tags*
 *~
 *.swp
+package-lock.json
